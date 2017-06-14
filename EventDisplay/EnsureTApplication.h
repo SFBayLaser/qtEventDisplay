@@ -9,7 +9,7 @@
 // has been created.  If it has, do nothing.  If it has not, create it.
 //
 
-namespace evdb {
+namespace qtEventDisplay {
 
   class EnsureTApplication{
 

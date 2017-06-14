@@ -12,7 +12,7 @@
 #include <TGTextBuffer.h>
 #include <iostream>
 
-namespace evdb3D
+namespace qtEventDisplay
 {
   class EvtDisplayUtils
   {

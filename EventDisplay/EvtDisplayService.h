@@ -16,7 +16,7 @@
 #include "art/Framework/Principal/Event.h"
 #include "EventDisplay/EnsureTApplication.h"
 
-namespace evdb
+namespace qtEventDisplay
 {
   class EvtDisplayService
   {
@@ -28,7 +28,7 @@ namespace evdb
 
     // When this object is intialized, it will ensure that
     // interactive ROOT is properly initialized
-    EnsureTApplication ensureTApp_;
+      qtEventDisplay::EnsureTApplication ensureTApp_;
 
     void postBeginJobWorkers(art::InputSource* inputs,
 			     std::vector<art::Worker*> const& workers);
@@ -41,5 +41,5 @@ namespace evdb
   };
 }
 #endif // __CINT__
-DECLARE_ART_SERVICE(evdb::EvtDisplayService, LEGACY)
+DECLARE_ART_SERVICE(qtEventDisplay::EvtDisplayService, LEGACY)
 #endif // EvtDisplayService_EvtDisplayService_hh

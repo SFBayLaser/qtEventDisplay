@@ -9,11 +9,11 @@
 //   at the end of the job. This code must not delete it.
 //
 
-#include "EventDisplay/EnsureTApplication.h"
+#include "qtEventDisplay/EnsureTApplication.h"
 
 #include "TApplication.h"
 
-evdb::EnsureTApplication::EnsureTApplication( int argc, char **argv){
+qtEventDisplay::EnsureTApplication::EnsureTApplication( int argc, char **argv){
 
   if ( !gApplication ){
     new TApplication( "noapplication", &argc, argv );

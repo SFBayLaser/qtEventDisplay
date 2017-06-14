@@ -52,9 +52,10 @@ find_ups_product( lardataobj      v1_00_00 )
 find_ups_product( larevt          v1_00_00 )
 find_ups_product( larsim          v1_00_00 )
 find_ups_product( larreco         v1_00_00 )
+find_ups_product( qt              v5_7_1   )
 find_ups_product( art             v1_08_00 )
 find_ups_product( cetbuildtools   v3_07_00 )
-find_ups_product( postgresql      v9_1_5 )
+find_ups_product( postgresql      v9_1_5   )
 
 cet_check_gcc()
 

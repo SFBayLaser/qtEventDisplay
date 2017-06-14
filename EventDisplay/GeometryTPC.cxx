@@ -8,7 +8,7 @@
 
 #include "art/Framework/Services/Registry/ServiceHandle.h"
 
-namespace evdb3D
+namespace qtEventDisplay
 {
     //......................................................................
     GeometryTPC::GeometryTPC()

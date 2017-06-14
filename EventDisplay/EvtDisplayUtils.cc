@@ -8,7 +8,7 @@
 #include "EvtDisplayUtils.h"
 #include <string>
 
-namespace evdb3D
+namespace qtEventDisplay
 {
     EvtDisplayUtils::EvtDisplayUtils()
         :fTbRun(0),fTbEvt(0)

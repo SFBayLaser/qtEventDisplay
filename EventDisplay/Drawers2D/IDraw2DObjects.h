@@ -14,7 +14,7 @@
 
 #include "art/Framework/Principal/Event.h"
 
-namespace display
+namespace qtEventDisplay
 {
     class IDraw2DObjects
     {

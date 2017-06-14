@@ -44,7 +44,7 @@
 #include <cmath>
 #include <fstream>
 
-namespace display
+namespace qtEventDisplay
 {
 
 class DrawWire2D : IDraw2DObjects

@@ -16,5 +16,5 @@
 
 
 <lcgdict>
- <class name="evdb3D::EvtDisplayUtils"/>
+ <class name="qtEventDisplay::EvtDisplayUtils"/>
 </lcgdict>

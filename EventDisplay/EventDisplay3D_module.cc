@@ -83,7 +83,7 @@
 #include "TGTab.h"
 #include "TRandom.h"
 
-namespace EventDisplay3D
+namespace qtEventDisplay
 {
 
 class EventDisplay3D : public art::EDAnalyzer
@@ -117,7 +117,7 @@ private:
     const geo::GeometryCore*           fGeometry = lar::providerFrom<geo::Geometry>();
     const detinfo::DetectorProperties* fDetector = lar::providerFrom<detinfo::DetectorPropertiesService>();
 
-    std::unique_ptr<evdb3D::EvtDisplayUtils> fEvtDisplayUtil;
+    std::unique_ptr<qtEventDisplay::EvtDisplayUtils> fEvtDisplayUtil;
 
     TEveGeoTopNode*        fEveGeoTopNode;
     TEveViewer*            fXYView;
@@ -537,4 +537,4 @@ void EventDisplay3D::EventDisplay3D::endJob(){
 
 }
 
-DEFINE_ART_MODULE(EventDisplay3D::EventDisplay3D)
+DEFINE_ART_MODULE(qtEventDisplay::EventDisplay3D)

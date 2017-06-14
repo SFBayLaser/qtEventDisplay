@@ -18,7 +18,7 @@
 // C++ includes
 #include <iostream>
 
-namespace evdb
+namespace qtEventDisplay
 {
 
   EvtDisplayService::EvtDisplayService(fhicl::ParameterSet const& pset,
@@ -112,4 +112,4 @@ namespace evdb
 
 }// end namespace tex
 
-DEFINE_ART_SERVICE(evdb::EvtDisplayService)
+DEFINE_ART_SERVICE(qtEventDisplay::EvtDisplayService)

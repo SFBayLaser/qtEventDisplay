@@ -6,7 +6,7 @@
 #define EVD_GEOMETRYTPC_H
 #include <vector>
 
-namespace evdb3D
+namespace qtEventDisplay
 {
     /// Aid in the rendering of Geometry objects
     class GeometryTPC
